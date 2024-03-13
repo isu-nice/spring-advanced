@@ -63,7 +63,6 @@ public class ContextV1Test {
         log.info("strategyLogic1={}", strategyLogic1.getClass());
         context1.execute();
 
-
         Strategy strategyLogic2 = new Strategy() {
             @Override
             public void call() {
